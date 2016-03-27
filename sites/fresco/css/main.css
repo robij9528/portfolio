@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('../fonts/chunkfive-webfont.eot');
+    src: url('../fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chunkfive-webfont.woff2') format('woff2'),
+         url('../fonts/chunkfive-webfont.woff') format('woff'),
+         url('../fonts/chunkfive-webfont.ttf') format('truetype'),
+         url('../fonts/chunkfive-webfont.svg#chunkfiveroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*utility Class*/
+
+.hidden
+{ 
+	display: none;
+}
+
+.logo img{
+	padding-top: 30px;
+	padding-right: 20px;
+}
+
+
+
+nav ul li {
+	float: left;
+	margin-right: 20px;
+	padding-top: 70px;
+}
+
+nav ul li a{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #260126;
+	text-decoration: none;
+	position: relative;
+
+}
+
+nav ul li a:hover{
+
+	color: #59323C;
+}
+
+nav ul li a:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	visibility: hidden;
+	 -webkit-transform: scaleX(0);
+  	transform: scaleX(0);
+  	-webkit-transition: all 0.3s ease-in-out 0s;
+  	transition: all 0.3s ease-in-out 0s;
+}
+
+nav ul li a:hover:before{
+	visibility: visible;
+  	-webkit-transform: scaleX(1);
+  	transform: scaleX(1);
+}
+
+
+
+/*Index page*/
+
+#mainImage
+{
+	width: 100%;
+	height: 70%;
+	background-size: 100%;
+	margin-top: 30px;
+	text-align: center;
+	background-image: url(../images/chairs.jpg);
+	background-repeat: no-repeat;
+	overflow:hidden;
+	position:relative;
+	/*background-attachment: fixed;*/
+}
+
+
+#enjoyCup
+{
+	font-family: 'chunkfiveroman', Arial, sans-serif;
+	color: #FFF;
+	font-size: 250%;
+	opacity: 1;
+	padding-top: 10%;
+	letter-spacing: 2px;
+	-webkit-animation-name: text;
+	-webkit-animation-duration: 2s;
+	animation-name: text;
+	animation-duration: 2s;
+	
+}
+
+@keyframes text {
+	
+	0% {opacity:0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes text {
+	
+	0% {opacity:0;}
+	100% {opacity: 1;}
+}
+
+#enjoyCupSmall
+{
+	font-size: 100%;
+	letter-spacing: 2px;
+}
+
+
+#news
+{
+	margin-top: 40px;
+	font-family:'chunkfiveroman', Arial, sans-serif;
+	color: #00bbc9;
+	font-size: 60px;
+	border-bottom: 1px solid #61301d;
+	margin-bottom: 20px;
+}
+
+.news img{
+	padding-top: 10px;
+}
+
+
+.news h2{
+	font-family:'chunkfiveroman', Arial, sans-serif;
+	font-size: 40px;
+	color: #61301d;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.news p{
+	font-family: 'Noticia Text', serif;
+	color: #61301d;
+	font-size:24px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.news a{
+	color: #61301d;
+}
+
+.news a:hover{
+	color: #00bbc9;
+}
+
+
+
+
+/*product page*/
+
+.prodTitle img{
+	padding-top: 30px;
+}
+
+.prodTitle h2{
+	font-family:'chunkfiveroman', Arial, sans-serif;
+	color: #00bbc9;
+	margin-top: 40px;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+.prodTitle p{
+	font-family:'Noticia Text', serif;
+	line-height: 25px;
+	color:#61301d;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.kenyan h2{
+	font-family: 'chunkfiveroman', Arial, sans-serif;
+	font-size: 40px;
+	color: #00bbc9;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+.kenyan p{
+	font-family:'Noticia Text', serif;
+	color:#61301d;
+	font-size: 16px;
+	line-height: 25px;
+	text-align:justify;	
+}
+
+.prod{
+	margin-top: 30px;
+}
+
+.prod h2{
+	font-family: 'chunkfiveroman', Arial, sans-serif;
+	font-size: 30px;
+	color: #00bbc9;
+	margin-top: 40px;
+}
+
+.prod p{
+	font-family:'Noticia Text', serif;
+	line-height: 25px;
+	color:#61301d;
+	margin-top: 20px;
+}
+
+
+
+
+
+/*Contact page*/
+
+.contact{
+	padding-top: 20px;
+}
+
+.contact label{
+	padding-bottom: 10px;
+	font-family:'Noticia Text', serif;
+}
+
+.contact h2{
+	font-family: 'chunkfiveroman', Arial, sans-serif;
+	font-size: 20px;
+	color: #00bbc9;
+	margin-top: 40px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.contact p{
+	font-family:'Noticia Text', serif;
+	line-height: 20px;
+	color:#61301d;
+	padding-bottom: 10px;
+}
+
+.submit{
+	background-color: #00bbc9;
+	padding: 5px;
+	font-family:'Noticia Text', serif;
+	color: #FFF;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+
+footer
+{
+	background-color: #00bbc9;
+	margin-top: 50px;
+	overflow:hidden;
+		
+}
+
+
+#copyRight
+{
+	color: #fff;
+	font-family: 'Noticia Text', serif;
+	text-align: center;
+	padding: 20px;
+}
+
+#copyRight a{
+	color: #FFF;
+	text-decoration: underline;
+}
+

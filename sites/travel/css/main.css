@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*utility Class*/
+
+.hidden
+{ 
+	display: none;
+}
+
+.homeBg
+{
+	background-image: url(../images/bridge_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+
+}
+
+
+@media only screen and (max-width: 40em) { 
+
+.homeBg img{
+	padding-top: 100px;
+}
+
+}
+
+.mainNav ul
+{
+	padding-top: 40px;
+	border-top: solid 1px #000;
+	padding-left: 150px;
+}
+
+.mainNav ul li
+{
+	float: left;
+}
+
+.mainNav ul li a
+{
+	font-family: 'Varela Round', sans-serif;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-right: 30px;
+	transition: all .2s ease-Out;
+}
+
+
+.mainNav ul li a:hover
+{
+	color: #FFF;
+}
+
+
+.whoKate
+{
+	margin-top: 40px;
+	border-bottom: solid 1px #000;
+	padding-bottom: 20px;
+}
+
+.whoKate h2
+{
+	font-family: 'Domine', serif;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.whoKate img
+{
+	margin-bottom: 10px;
+}
+
+.whoKate p
+{
+	margin-top: 10px;
+	line-height: 25px;
+}
+
+.whoKate a
+{
+	margin-top: 20px;
+}
+
+.news h2
+{
+	font-family: 'Domine', serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+.latest h2
+{
+	font-family: 'Domine', serif;
+	font-size: 25px;
+	margin-bottom: 20px;
+	line-height: 35px;
+}
+
+.latest p 
+{
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+
+.latest img
+{
+	margin-top: 20px;
+}
+
+.pagination
+{
+	margin-top: 30px;
+}
+
+.update h2
+{
+	font-family: 'Domine', serif;
+	font-size: 25px;
+	margin-bottom: 20px;
+	line-height: 35px;
+	margin-top: 30px;
+}
+
+.update p
+{
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.update label p
+{
+	margin-bottom: 10px;	
+}
+
+.submit{
+	background-color: #FFF;
+	border: 1px solid #000;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.where p
+{
+	font-size: 15px;
+}
+
+.footerBg
+{
+	height: 60px;
+	background-color: #111;
+	margin-top: 30px;
+
+}
+
+.footer p
+{
+	color: #FFF;
+	margin-top: 20px;
+}

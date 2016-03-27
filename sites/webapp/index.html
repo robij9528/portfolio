@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pebbel | Web App</title>
+<link rel="stylesheet" href="css/foundation.min.css"/>
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+</head>
+
+<body>
+
+
+	<!-- Mobile Nav-->
+<div class="fixed hide-for-medium-up">
+	<nav class="top-bar" data-topbar role="navigation">
+		<h2 class="hide">Mobile Menu</h2>
+		<ul class="title-area">
+		  <li class="wordmark">
+			<a href="index.html">
+			  <img src="images/pebbleLogo.svg" alt="pebble wordmark">
+			</a>
+		  </li>
+		  <li class="toggle-topbar menu-icon"><a href="#"><span></span></a> 
+		  </li>
+		</ul>		  
+		<section class="top-bar-section">
+		  <h2 class="hidden">Mobile Dropdown</h2>
+		  <ul class="right">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">About</a></li>
+		  </ul>
+		</section>
+	</nav>
+</div>
+
+<!-- Main Nav -->
+<section class="descNav">
+	<nav class="row">
+		<div class="large-4 columns show-for-medium-up"><img src="images/pebbleLogo.svg" alt="pebbel logo"></div>
+		<div class=" large-8 columns show-for-medium-up">
+			<ul class="right">
+				<li class="left"><a href="#">Home</a></li>
+				<li class="left"><a href="#">Products</a></li>
+				<li class="left"><a href="#">About</a></li>
+			</ul>
+		</div>
+	</nav>
+</section>
+
+
+<section class="row">
+	<h2 class="hidden">Title</h2>
+	<h1 class="small-12 collumns small-text-center title">The convenience of having everything on your wrist.</h1>
+	<h2 style= "font-size: 16px;"class="small-12 collumns small-text-center title">Stay after the video to check out information about the watch.</h2>
+</section>
+
+<section class="row" >
+	<h2 class="hidden">Video</h2>
+	<video id="video" class="large-12 columns large-centered-centered show" controls>
+		<source src="video/video.mp4"></source>
+	</video>	
+</section>
+
+
+<section class="row" >
+	<h2 class="hidden">App</h2>
+	<div id="webApp" class="small-10 columns hide" >
+		<div class="row">
+			<div id="circleList">
+				<div class="circle" id="circle0"><a id="0" href="#">00</a></div>
+				<div class="circle" id="circle1"><a id="1" href="#">00</a></div>
+				<div class="circle" id="circle2"><a id="2" href="#">00</a></div>
+				<div class="circle" id="circle3"><a id="3" href="#">00</a></div>
+			</div>
+			<div class="small-8 columns">
+				<img id="watch" src="images/watch1.png"></div>
+			<div class="small-4 columns using">
+				<h2>Using Pebble</h2>
+
+				<h1 id="titleWatch">Select</h1>
+
+				<p id="info">This button is used to select an item in a list or start an app. It can also be used to get to the menu from a watchface.</p>
+
+				<h2>Available in 3 colors</h2>
+				<ul class="row" id="colorList">
+					<li class="large-4 columns"><a href="#" id="0"><img src="images/white.svg" class="thumb"></a></li>
+					<li class="large-4 columns"><a href="#" id="1"><img src="images/black.svg" class="thumb"></a></li>
+					<li class="large-4 columns"><a href="#" id="2"><img src="images/red.svg" class="thumb"></a></li>
+				</ul> 
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="footer" >
+	<footer class="row">
+		<div class="small-10 large-12 columns">
+			<div class="row">
+				<div class="small-12 large-12 columns text-center" id="copyRight">
+					<p>&copy; Copyright 2015 Pebbel. All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</section>
+
+
+
+
+<script src="js/main.js"></script>	
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+	  $(document).foundation();
+</script>
+</body>
+
+
+
+</html>

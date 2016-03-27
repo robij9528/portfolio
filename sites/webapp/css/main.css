@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*utility Class*/
+
+.hidden
+{ 
+	display: none;
+}
+
+.wordmark
+{
+	width: 25%;
+	height: 25%;
+}
+
+body
+{
+	background-image: url(../images/sm_backImage.jpg);
+}
+
+
+#video
+{
+	margin-top: 30px;
+}
+
+.descNav
+{
+	background-color: #282828;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.descNav ul li
+{
+	margin-top: 30px;
+
+}
+
+
+.descNav ul li a
+{
+	
+	color: #5fbe98;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin-right: 20px;
+	
+}
+
+.descNav ul li a:hover
+{
+	
+	color: #fff;
+	
+}
+
+.title
+{
+	/*margin-top: 20px;*/
+	padding-top: 40px;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#footer
+{
+	background-color: #282828;
+	margin-top: 30px;
+	padding-bottom: 20px;
+		position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+#footerNav
+{
+	border-bottom: #5fbe98 solid 1px;
+	margin-bottom: 10px;
+	padding: 20px;
+	color: #5fbe98;
+}
+
+#footerNav ul li
+{
+	margin-right: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+#copyRight
+{
+	font-size: 10px;
+	color: #5fbe98;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+#social
+{
+	padding-right: 10px;
+}
+
+#social h3
+{
+	color: #5fbe98;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	padding-top: 10px;
+}
+
+#webApp
+{
+	margin-top: 30px;
+	display: 
+}
+
+.using p
+{
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+.using h2
+{
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+.circle
+{
+	background-color: #f26522;
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	opacity: 0.5;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.circle:hover
+{
+	background-color: #FFF;
+}
+
+#circle0
+{
+	position: relative;
+	top: 190px;
+	left: 200px;
+}
+
+#circle1
+{
+	position: relative;
+	top: 170px;
+	left: 330px;	
+}
+
+#circle2
+{
+	position: relative;
+	top: 180px;
+	left: 330px;	
+}
+
+#circle3
+{
+	position: relative;
+	top: 190px;
+	left: 330px;	
+}
+
+#circleList a
+{
+	opacity: 0;
+}
+
+#titleWatch
+{
+	color: #f26522;
+	margin-top: 20px;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+
+}
+
+.thumb
+{
+	margin-top: 20px;
+	height: 50%;
+	width: 50%;
+	cursor: pointer;
+}
+
+.thumb:hover
+{
+	opacity: .5;
+}
+
