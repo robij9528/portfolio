@@ -75,7 +75,11 @@
 		<div class="small-12 large-4 large-offset-1 columns"><object  data="images/bird_outline.svg" id="svg"></object></div>
 
 		<div class="large-6 large-offset-1 show-for-large-up columns welcomeMsg">
-			<h2 id="welcome">Welcome</h2>
+			<h2 id="welcome">Hello</h2>
+			<div class="name">
+				<h3>I'm Jake Robinson</h3>
+				<h4>Front End Web Developer</h4>
+			</div>
 			<p id="welcBod">Thank you for deciding to visit my site! I hope you enjoy your stay and if you have any questions or just want to say hi please don't hesitate to contact me!</p>
 		</div>
 	</div>
@@ -83,7 +87,9 @@
 
 <div class="row">
 	<div class="small-12 columns small-text-center hide-for-large-up welcomeMob">
-		<h2>Welcome</h2>
+		<h2>Hello</h2>
+		<h3>I'm Jake Robinson</h3>
+		<h4>Front End Web Developer</h4>
 		<p>Thank you for deciding to visit my site! I hope you enjoy your stay and if you have any questions or just want to say hi please don't hesitate to contact me!</p>
 	</div>
 </div>
@@ -210,7 +216,7 @@
 					<p class="conInfoDev">Phone:</p>
 					<p>519-639-1576</p>
 					<p class="conInfoDev">Social</p>
-					<div class="row large-collapse small-collapse large-offset-0 small-offset-3">
+					<div class="smi row large-collapse small-collapse large-offset-0 small-offset-3">
 						<div class="small-3 medium-2 large-1 columns social">
 							<a href="#"><object data="images/facebook.svg"></object></a>							
 						</div>
@@ -228,7 +234,7 @@
 
 <footer>
 	<div class="row">
-		<h2 class="small-10 large-10 text-center small-centered columns">Jake Robinson Designs &copy; 2015</h2>
+		<h2 class="small-10 large-10 text-center small-centered columns">Jake Robinson Designs &copy; 2016</h2>
 	</div>
 </footer>
 

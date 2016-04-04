@@ -15,50 +15,19 @@
 </head>
 <body>
 
-<style type="text/css">
 
+<div class="thankyou">
+	<?php
+		echo "<a href=\"index.php\">Back to Site</a>";
+		if(isset($_GET['name'])) {
+			$name = $_GET['name'];
+			echo "<p>Thanks, {$name}, I will email you soon!</p>";
+		}else{
+			echo "<p>Thanks, I will email you soon!</p>";
+		}
+	?>
+</div>
 
-p
-{
-	text-align: center;
-	font-size: 40px;
-	color: #FFF;
-	font-family: 'Oxygen', sans-serif;
-	border: 1px solid #8bd3da;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	border-radius: 5px;
-	background-color: #8bd3da
-}
-
-a
-{
-	color: #666;
-	font-family: 'Oxygen', sans-serif;
-	text-decoration: none;
-	border: 1px solid #666;
-	padding: 5px;
-	border-radius: 5px;
-
-}
-
-a:hover
-{
-	color: #f5c073;
-}
-
-
-</style>
-
-<?php
-	echo "<a href=\"index.php\">Back to Site</a>";
-	if(isset($_GET['name'])) {
-		$name = $_GET['name'];
-		echo "<p>Thanks, {$name}, I will email you soon!</p>";
-	}else{
-		echo "<p>Thanks, I will email you soon!</p>";
-	}
-?>
 
 </body>
 </html>

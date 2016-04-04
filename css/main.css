@@ -90,7 +90,7 @@
 	height: 10%;
 	width: 10%;
 	margin-left: 40px;
-	margin-top: 10px;
+	/*margin-top: 5px;*/
 }
 
 
@@ -124,7 +124,7 @@
 	letter-spacing: 2px;
 	color: #FFF;
 	font-size: 60px;
-	margin-top: 55px;
+	/*margin-top: 20px;*/
 	margin-bottom: 20px;
 }
 
@@ -135,6 +135,7 @@
 	line-height: 25px;
 	margin-top: 25px;
 	margin-bottom: 50px;
+	word-spacing: 1px;
 }
 
 .welcomeMsg{
@@ -151,6 +152,20 @@
 	font-size: 40px;
 }
 
+.welcomeMob h3{
+	font-family: 'Raleway', sans-serif;
+	color: #8bd3da;
+	padding-top: 10px;
+	font-size: 30px;
+}
+
+.welcomeMob h4{
+	font-family: 'Raleway', sans-serif;
+	color: #8bd3da;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
 .welcomeMob p{
 	font-family: 'Oxygen', sans-serif;
 	color: #666;
@@ -158,6 +173,21 @@
 	margin-top: 20px;
 	text-align: justify;
 	/*letter-spacing: .5px;*/
+}
+
+.name h3{
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	color: #FFF;
+	font-size: 30px;	
+}
+
+.name h4{
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	color: #FFF;
+	font-size: 25px;
+	padding-top: 10px;	
 }
 
 
@@ -514,4 +544,37 @@ footer h2
 .edfcImage{
 	padding-bottom: 20px;
 	padding-top: 20px;
+}
+
+.thankyou p{
+	text-align: center;
+	font-size: 40px;
+	color: #FFF;
+	font-family: 'Oxygen', sans-serif;
+	border: 1px solid #8bd3da;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 5px;
+	background-color: #8bd3da
+}
+
+.thankyou a{
+	color: #666;
+	font-family: 'Oxygen', sans-serif;
+	text-decoration: none;
+	border: 1px solid #666;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.thankyou a:hover{
+	color: #f5c073;
+}
+
+@media only screen and (max-width: 40em) { 
+
+.smi{
+	padding-left: 20px;
+}
+
 }
