@@ -103,7 +103,7 @@
 				<div class="row">
 					<div class="small-12 large-8 small-text-justify columns">
 						<h2 class=" small-12 small-text-center large-text-left small-centered large-12 large-uncentered columns aboutD">About Me</h2> <!-- For Desktop -->
-						<p class="small-12 small-centered large-11 end columns aboutBod">Hello my name is Jake Robinson. I am currently in the Interactive Media Development program at Fanshawe College, and am a past graduate of Fanshawe's Graphic Design program. As much as I love design, I love coding just as much. I am currently a freelancer for graphics and web and can't wait to get my career started in the industry. </p>
+						<p class="small-12 small-centered large-11 end columns aboutBod">I am a recent graduate of the Interactive Media Development program at Fanshawe College, and am a past graduate of Fanshawe's Graphic Design program. As much as I love design, I have a stronger passion for coding. I am currently a freelancer for graphics and web and can't wait to get my career started in the industry. </p>
 					</div>
 					<div class="large-4 me columns">
 						<img class="show-for-large-up meImg" src="images/me_web.png" alt="image of me">

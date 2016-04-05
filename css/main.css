@@ -66,7 +66,7 @@
 
 #svg
 {
-	margin-top: 100px;
+	padding-top: 50%;
 }
 
 #scroll
@@ -87,8 +87,8 @@
 
 #menuLogo img
 {
-	height: 10%;
-	width: 10%;
+	height: 15%;
+	width: 15%;
 	margin-left: 40px;
 	/*margin-top: 5px;*/
 }
@@ -139,7 +139,7 @@
 }
 
 .welcomeMsg{
-	padding-top: 130px;
+	padding-top: 17%;
 	opacity: 0;
 	transition: all 2s ease;
 	transition-delay: 1.5s;
@@ -186,7 +186,7 @@
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 2px;
 	color: #FFF;
-	font-size: 25px;
+	font-size: 20px;
 	padding-top: 10px;	
 }
 
