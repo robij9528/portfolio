@@ -218,10 +218,16 @@
 					<p class="conInfoDev">Social</p>
 					<div class="smi row large-collapse small-collapse large-offset-0 small-offset-3">
 						<div class="small-3 medium-2 large-1 columns social">
-							<a href="https://www.facebook.com/jakerobinsondesigns/"><object data="images/facebook.svg"></object></a>							
+							<a target="_blank" class="svgHelp"  href="https://www.facebook.com/jakerobinsondesigns/">
+							<!-- 	<object data="images/facebook.svg"></object> -->
+								<img src="images/facebook.svg" alt="facebook icon">
+							</a>							
 						</div>
 						<div class="small-3 medium-2 large-1 columns end social">
-							<a href="https://twitter.com/jake_robi"><object data="images/twitter.svg"></object></a>
+							<a target="_blank" class="svgHelp" href="https://twitter.com/jake_robi">
+								<!-- <object data="images/twitter.svg"></object> -->
+								<img target="_blank" src="images/twitter.svg" alt="twitter icon">
+							</a>
 						</div>
 					</div>
 				</div>	

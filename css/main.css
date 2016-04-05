@@ -482,6 +482,19 @@ label{
 	margin-right: 10px;
 }
 
+.social img{
+	/*padding-bottom: 10px;*/
+	border-bottom: 0px solid #f5c073;
+	transition: all .2s ease;
+}
+
+
+.social img:hover{
+	border-bottom: 3px solid #f5c073;
+	padding-bottom: 5px;
+}
+
+
 
 footer
 {
