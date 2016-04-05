@@ -122,12 +122,12 @@
 				<h2 class="text-center small-12 large-12 columns love">What I Love</h2>
 			</div>
 			<div class="row icons">
-				<img class="small-2 large-1 large-offset-3 columns" src="images/music.svg" alt="headphones">
-				<img class="small-2 large-1 columns" src="images/computer.svg" alt="mouse">
-				<img class="small-2 large-1 columns" src="images/game.svg" alt="controller">
-				<img class="small-2 large-1 columns" src="images/reel.svg" alt="movie reel">
-				<img class="small-2 large-1 columns" src="images/code.svg" alt="code">
-				<img class="small-2 large-1 columns end" src="images/reading.svg" alt="book">
+				<img class="small-2 medium-2 large-1 large-offset-3 columns" src="images/music.svg" alt="headphones">
+				<img class="small-2 medium-2 large-1 columns" src="images/computer.svg" alt="mouse">
+				<img class="small-2 medium-2 large-1 columns" src="images/game.svg" alt="controller">
+				<img class="small-2 medium-2 large-1 columns" src="images/reel.svg" alt="movie reel">
+				<img class="small-2 medium-2 large-1 columns" src="images/code.svg" alt="code">
+				<img class="small-2 medium-2 large-1 columns end" src="images/reading.svg" alt="book">
 			</div>
 		</div>
 	</div>
@@ -216,7 +216,7 @@
 					<p class="conInfoDev">Phone:</p>
 					<p>519-639-1576</p>
 					<p class="conInfoDev">Social</p>
-					<div class="smi row large-collapse small-collapse large-offset-0 small-offset-3">
+					<div class="smi row large-collapse small-collapse medium-collapse medium-offset-3 large-offset-0 small-offset-3">
 						<div class="small-3 medium-2 large-1 columns social">
 							<a target="_blank" class="svgHelp"  href="https://www.facebook.com/jakerobinsondesigns/">
 							<!-- 	<object data="images/facebook.svg"></object> -->
