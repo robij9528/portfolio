@@ -9,20 +9,33 @@
 <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 <link href='http://fonts.googleapis.com/css?family=Noticia+Text' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 
 <div class="navBg">
   <header class="row">        
-    <div class="small-12 large-3 columns clear logo">
+    <div class="small-5 large-3 columns clear logo"> 
       <img src="images/cafe_fresco_logo_white.png" alt="Cafe Fresco Logo">
-    </div>         
-    <nav class="large-9 columns">          
-      <ul class="right">
+    </div> 
+
+    <img class=" show-for-small-only small-2 columns mob-men" src="images/menu.svg">
+<!-- Mobile Nav -->
+    <nav class="small-12 large-9 columns mobNav">          
+      <ul >
         <li><a href="index.html">Home</a></li>
         <li><a href="products.html">Products</a></li>
-        <li><a href="products.html">About</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+      </ul>        
+    </nav>
+<!-- Main Nav -->
+    <nav class="small-12 large-9 columns show-for-medium-up">          
+      <ul >
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="contact_us.html">Contact Us</a></li>
       </ul>        
     </nav>
@@ -44,6 +57,7 @@
 
 <section class="row contact">
   <h2 class="hidden">contact form</h2>
+  <h2 class="small-12 large-12 columns">Send us a Message</h2>
   <form class="small-12 large-6 columns">
     <label>Name</label>
     <input type="text">

@@ -145,13 +145,13 @@
 	<div class="show-for-medium-up thumb">
 	<div class="row">
 		<a class="workThumb small-4 large-4 columns" href="edfc.html"><img src="images/edfc_thumb.jpg" alt="edfc project"><span><p>See Project</p></span></a>		
-		<a class="workThumb small-4 large-4 columns" href="fresco.html"><img src="images/thumb_fresco.jpg" alt="fresco project"><span><p>See Project</p></span></a>
-		<a class="workThumb small-4 large-4 columns" href="ago_proj.html"><img src="images/ago_thumb.jpg" alt="ago thumbnail"><span><p>See Project</p></span></a>
+		<a class="workThumb small-4 large-4 columns" href="fresco.html"><img src="images/thumb_fresco.jpg" alt="fresco project"><span><p>See Project</p></span></a>		
+		<a class="workThumb small-4 large-4 columns" href="travel.html"><img src="images/travel_thumb.jpg" alt="travel project"><span><p>See Project</p></span></a>
 	</div>
 	<div class="row showHide otherThumbs">
 		<a class="workThumb small-4 large-4 columns" href="fish.html"><img src="images/fish_thumb.jpg" alt="fish project"><span><p>See Project</p></span></a>
-		<a class="workThumb small-4 large-4 columns" href="travel.html"><img src="images/travel_thumb.jpg" alt="pebble project"><span><p>See Project</p></span></a>
-		<a class="workThumb small-4 large-4 columns" href="pebble_proj.html"><img src="images/thumb_pebble.jpg" alt="pebble project"><span><p>See Project</p></span></a>
+		<a class="workThumb small-4 large-4 columns" href="ago_proj.html"><img src="images/ago_thumb.jpg" alt="ago thumbnail"><span><p>See Project</p></span></a>
+		<a class="workThumb small-4 large-4 columns" href="drinky_proj.html"><img src="images/drinky_thumb.jpg" alt="drinky project"><span><p>See Project</p></span></a>
 	</div>
 	<div class=" showMore large-12 text-center"><a href="#!">Show More</a></div>
 	</div>
@@ -161,12 +161,12 @@
 		<div class="row">
 			<a class="workThumb small-4 large-4 columns" href="edfc.html"><img src="images/edfc_thumb.jpg" alt="edfc project"></a>
 			<a class="workThumb small-4 large-4 columns" href="fresco.html"><img src="images/thumb_fresco.jpg" alt="fresco project"></a>
-			<a class="workThumb small-4 large-4 columns" href="ago_proj.html"><img src="images/ago_thumb.jpg" alt="ago thumbnail"></a>
+			<a class="workThumb small-4 large-4 columns" href="travel.html"><img src="images/travel_thumb.jpg" alt="travel project"></a>
 		</div>
 		<div class="row">
-			<a class="workThumb small-4 large-4 columns" href="fish.html"><img src="images/fish_thumb.jpg" alt="fish project"></a>
-			<a class="workThumb small-4 large-4 columns" href="travel.html"><img src="images/travel_thumb.jpg" alt="pebble project"></a>
-			<a class="margHelpBot workThumb small-4 large-4 columns" href="pebble_proj.html"><img src="images/thumb_pebble.jpg" alt="pebble project"></a>
+			<a class="workThumb small-4 large-4 columns" href="fish.html"><img src="images/fish_thumb.jpg" alt="fish project"></a>			
+			<a class="workThumb small-4 large-4 columns" href="ago_proj.html"><img src="images/ago_thumb.jpg" alt="ago thumbnail"></a>
+			<a class="margHelpBot workThumb small-4 large-4 columns" href="drinky_proj.html"><img src="images/drinky_thumb.jpg" alt="drinky project"></a>
 		</div>
 	</div>
 

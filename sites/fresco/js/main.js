@@ -28,6 +28,11 @@
 	var price = document.querySelector(".prodPrice");
 	var prodprice = ["$2.25 Each","$4.50 Each","$2.25 Each","$3.00 Each","$6.50 Each","$2.00 Each","$5.00 Each","$1.50 Each"];
 	
+
+
+	var nav = document.querySelector(".mobNav");
+	var ham = document.querySelector(".mob-men");
+
 	//functions
 
 	function changeImage(e){
@@ -37,11 +42,28 @@
 		price.innerHTML = prodprice[e.currentTarget.id];
 	}
 
+	function hidemen(){
+		nav.style.display = "none";
+	}
+
+	function showMen(e){
+		if (nav.style.display === "block")
+		{
+			nav.style.display = "none";
+		}
+		else{
+			nav.style.display = "block";
+		}
+	}
+
 	//Listeners
 
 	for (var i=0; i<thumbs.length; i++) {
 		thumbs[i].addEventListener("click", changeImage, false);
 	};
+
+	window.addEventListener("load", hidemen, false);
+	ham.addEventListener("click", showMen, false);
 
 	
 
